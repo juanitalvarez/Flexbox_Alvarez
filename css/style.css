@@ -54,6 +54,10 @@ header{grid-area: header;}
 main{grid-area: main;}
 footer{grid-area: footer;}
 
+.paddingTop {
+    padding-top: 25px;
+}
+
 @media (min-width:769px) {
     
     /*nav dark*/
@@ -737,8 +741,9 @@ footer{grid-area: footer;}
 
     .imgAbout{
         display: flex;
-        flex-direction: row-reverse;
-        padding: 0px 50px 25px 0px; 
+        padding: 25px 0 25px 0px;
+        height: 330px;
+        justify-content: center;
 
     }
 
@@ -774,7 +779,8 @@ footer{grid-area: footer;}
     .workContent{
         flex-direction: column;
         background-color: var(--colorStone);
-        padding: 0px 25px 0px 25px;
+        padding-right: 25px;
+        padding-left: 25px;
         display: flex;
     }
     .cardWork {
